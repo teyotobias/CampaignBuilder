@@ -40,22 +40,22 @@ export default function HeroForm() {
         placeholder="Email"
         className={`p-2 bg-transparent border-2 ${
           errors.email ? "border-red-500" : "border-white"
-        } text-white placeholder-white`}
+        } text-white placeholder-white w-3/4`}
       />
-      <div className="flex justify-between gap-2">
+      <div className="flex justify-start gap-3">
         <input
           {...register("phone", { required: "Phone number is required" })}
           placeholder="Phone"
           className={`p-2 bg-transparent border-2 ${
             errors.phone ? "border-red-500" : "border-white"
-          } text-white placeholder-white w-1/2`}
+          } text-white placeholder-white w-3/8`}
         />
         <input
           {...register("zip", { required: "ZIP code is required" })}
           placeholder="Zip"
           className={`p-2 bg-transparent border-2 ${
             errors.zip ? "border-red-500" : "border-white"
-          } text-white placeholder-white w-1/2`}
+          } text-white placeholder-white w-3/8`}
         />
       </div>
       <HeroFormButton />
