@@ -10,13 +10,13 @@ export default function About() {
             className="object-cover w-full h-full"
           />
           <div className="transition-all absolute bottom-0 lg:bottom-[35%] lg:left-[90%] lg:max-w-96 w-full p-4 bg-gradient-to-r from-sky-900/85 via-sky-700/85 via-70% to-yellow-500/85">
-            <p className="text-white text-lg sm:text-xl">
+            <p className="text-white text-lg sm:text-sm">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
           </div>
         </div>
         <div className="hidden lg:block" />
-        <div className="flex flex-col  text-center text-xl lg:text-left">
+        <div className="flex flex-col  text-center text-lg md:text-lg sm:text-lg lg:text-left mt-20">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             voluptas repellat doloremque ipsum sit ex, debitis quasi provident,
