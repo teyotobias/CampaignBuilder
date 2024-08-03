@@ -10,6 +10,10 @@
     max-width: 40rem;
   }
 }
+.thin-button {
+  padding-top: 2px; /* or even 1px depending on your design needs */
+  padding-bottom: 2px;
+}
 
 html,
 * {
@@ -17,6 +21,16 @@ html,
   scroll-behavior: smooth !important;
 }
 
+/* body {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: italic;
+} */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 @media (max-width: 768px) {
   .slant-section {
     width: 100%;

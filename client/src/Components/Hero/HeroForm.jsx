@@ -52,7 +52,7 @@ export default function HeroForm() {
         />
         <input
           {...register("zip", { required: "ZIP code is required" })}
-          placeholder="Zip"
+          placeholder="ZIP"
           className={`p-2 bg-transparent border-2 ${
             errors.zip ? "border-red-500" : "border-white"
           } text-white placeholder-white w-3/8`}

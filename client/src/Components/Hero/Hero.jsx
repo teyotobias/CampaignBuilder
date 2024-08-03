@@ -21,8 +21,10 @@ export default function Hero() {
             height={150}
             className="mb-7"
           />
-          <h1 className="text-4xl sm:text-2xl font-extrabold mb-3">
-            STAY IN TOUCH WITH SAMANTHA
+          <h1 className="text-3xl font-extrabold mb-3">
+            STAY IN TOUCH
+            <br />
+            WITH SAMANTHA
           </h1>
           <HeroForm />
         </motion.div>
