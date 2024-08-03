@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative md:h-full bg-blue-400">
       <div
-        className={`flex flex-col justify-center transition-all sm:slant-section clip relative md:absolute sm:px-12 sm:pb-24 sm:pt-12 md:h-full max-w-[38rem] w-full z-10 text-white bg-gradient-to-tr from-sky-900 via-sky-700 to-yellow-300`}
+        className={`flex flex-col justify-center transition-all slant-section clip relative md:absolute sm:px-12 sm:pb-24 sm:pt-12 md:h-full max-w-[38rem] w-full z-10 text-white bg-gradient-to-tr from-sky-900 via-sky-700 to-yellow-300`}
       >
         <motion.div
           initial={{ opacity: 0 }}

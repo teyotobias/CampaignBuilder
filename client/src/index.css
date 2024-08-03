@@ -18,11 +18,9 @@ html,
 }
 
 @media (max-width: 768px) {
-  .hero-image {
-    object-position: center center;
-  }
-
   .slant-section {
+    width: 100%;
+    max-width: 100%;
     clip-path: none;
     -webkit-clip-path: none;
   }
