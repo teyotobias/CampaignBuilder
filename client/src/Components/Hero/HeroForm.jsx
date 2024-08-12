@@ -38,11 +38,11 @@ export default function HeroForm() {
           pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
         })}
         placeholder="Email"
-        className={`p-2 bg-transparent border-2 ${
+        className={`p-2 bg-transparent border-2  ${
           errors.email ? "border-red-500" : "border-white"
         } text-white placeholder-white w-3/4`}
       />
-      <div className="flex justify-start gap-3">
+      <div className="flex flex-col sm:flex-row justify-start gap-2">
         <input
           {...register("phone", { required: "Phone number is required" })}
           placeholder="Phone"

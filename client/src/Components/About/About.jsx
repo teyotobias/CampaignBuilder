@@ -32,7 +32,7 @@ export default function About() {
             hic delectus non nemo.
           </p>
         </div>
-        <div className="relative w-full min-h-96">
+        <div className="relative w-full min-h-96  sm:pt-5 md: pt-0">
           <img
             src="/assets/about-photo_1.jpg"
             alt="about image"
