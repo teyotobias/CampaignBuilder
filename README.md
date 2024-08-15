@@ -19,4 +19,31 @@ This is a mock website for democratic campaigner Samantha Hall, developed as par
 ### Prerequisites
 Make sure you have the following installed:
 - [Node.js](https://nodejs.org/)
-- npm or yarn
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+1. Clone the repository:
+   
+  ```bash
+  git clone https://github.com/teyotobias/CampaignBuilder.git
+  cd CampaignBuilder/client
+  ```
+2. Install dependencies:
+   
+  ```bash
+  npm install
+  ```
+  OR
+  ```bash
+  yarn install
+  ```
+### Running the Project
+3. Start the development server:
+  ```bash
+  npm run dev
+  ```
+  OR
+  ```bash
+  yarn dev
+  ```
+   
