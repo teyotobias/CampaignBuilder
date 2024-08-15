@@ -9,3 +9,14 @@ This is a mock website for democratic campaigner Samantha Hall, developed as par
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/framer%20motion-%23000000.svg?style=for-the-badge&logo=framer&logoColor=white)
 
+## Features
+
+- Responsive Design
+- Interactive Components with Framer Motion
+
+## Getting Started
+
+### Prerequisites
+Make sure you have the following installed:
+- Node.js
+- npm or yarn
