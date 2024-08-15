@@ -18,5 +18,5 @@ This is a mock website for democratic campaigner Samantha Hall, developed as par
 
 ### Prerequisites
 Make sure you have the following installed:
-- Node.js
+- [Node.js](https://nodejs.org/)
 - npm or yarn
